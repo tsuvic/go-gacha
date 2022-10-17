@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ガチャを作ろう
 
 ## 解説資料
@@ -162,3 +163,6 @@ $ git merge origin/main
 <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ja">
 	<img width="200" src="by-nc.eu.png">
 </a>
+=======
+# go-gacha
+>>>>>>> refs/remotes/origin/main
