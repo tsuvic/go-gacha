@@ -30,6 +30,8 @@ func main() {
 	}
 
 	// TODO: キーがstring型で値がint型のマップを定義する
+	// result := map[string]int{}
+	// result := map[string]int{"ノーマル": 0, "R": 0, "SR": 0, "XR": 0}
 	result := make(map[string]int)
 
 	for i := 0; i < n; i++ {
