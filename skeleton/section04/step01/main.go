@@ -6,6 +6,8 @@ import (
 	"fmt"
 	"math/rand"
 	"time"
+
+	"gacha.step01/b"
 )
 
 func main() {
@@ -13,7 +15,7 @@ func main() {
 	// 現在時刻をUNIX時間にしたものを種とする
 	rand.Seed(time.Now().Unix())
 
-	p := player{tickets: 10, coin: 100}
+	p := b.Player(10, 100)
 
 	n := inputN(&p)
 	results, summary := drawN(&p, n)

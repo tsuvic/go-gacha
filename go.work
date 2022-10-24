@@ -1,6 +1,3 @@
 go 1.19
 
-use (
-	./skeleton/section04/step01
-	./skeleton/section04/step02
-)
+use ./skeleton/section04/step02

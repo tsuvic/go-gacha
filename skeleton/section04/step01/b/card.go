@@ -1,4 +1,4 @@
-package main
+package b
 
 // TODO: rarityやcardに関する処理をここに移す
 type rarity string

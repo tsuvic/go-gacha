@@ -1,10 +1,10 @@
-package main
+package b
 
 import (
 	"fmt"
 )
 
-type player struct {
+type Player struct {
 	tickets int
 	coin    int
 }
